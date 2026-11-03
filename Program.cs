@@ -9,6 +9,8 @@ class Program
         int fleches = 5;
         //Consignes :
         //Demander au joueur si chaque tir touche ou rate la cible.
+        Console .WriteLine("Tu touche ou rate la cible ?");
+        string reponse = Console.ReadLine();
         //Décrémenter le nombre de flèches après chaque tir.
         //Compter le nombre de tirs réussis.
         //Arrêter la chasse lorsque les 5 flèches sont utilisées.
