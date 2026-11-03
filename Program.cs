@@ -32,9 +32,13 @@ class Program
         //Arrêter la chasse lorsque les 5 flèches sont utilisées.
         if (fleches == 0)
         {
-            Console.WriteLine("Chasse terminée!");
+            Console.WriteLine("Plus de fleches chasse terminée!");
         }
         //Arrêter immédiatement la chasse si le cerf est touché 3 fois.
+        if (tirsReussis == 3)
+        {
+            Console.WriteLine("Le cerf a été touché 3 fois la chasse est terminée!");
+        }
         //Si la saisie est invalide, demander une nouvelle réponse
         //sans consommer de flèche.
         //Afficher le bilan final de la chasse.
