@@ -39,9 +39,11 @@ class Program
         {
             Console.WriteLine("Le cerf a été touché 3 fois la chasse est terminée!");
         }
-        //Si la saisie est invalide, demander une nouvelle réponse
-        //sans consommer de flèche.
+        //Si la saisie est invalide, demander une nouvelle réponse sans consommer de flèche.
+          // fais a l'étape 3
         //Afficher le bilan final de la chasse.
-        
+        Console.WriteLine("----------Bilan de la chasse----------");
+        Console.WriteLine("Fleches restantes : " + fleches);
+        Console.WriteLine("Tirs réussis : " + tirsReussis);
     }
 }
