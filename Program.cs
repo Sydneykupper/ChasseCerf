@@ -6,7 +6,7 @@ class Program
     {
         /*
         Arthur dispose de 5 flèches pour chasser un cerf.
-
+    int fleches = 5;
         Consignes :
         - Demander au joueur si chaque tir touche ou rate la cible.
         - Décrémenter le nombre de flèches après chaque tir.
