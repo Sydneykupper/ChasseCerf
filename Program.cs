@@ -12,6 +12,7 @@ class Program
         Console .WriteLine("Tu touche ou rate la cible ?");
         string reponse = Console.ReadLine();
         //Décrémenter le nombre de flèches après chaque tir.
+        fleches--;
         //Compter le nombre de tirs réussis.
         //Arrêter la chasse lorsque les 5 flèches sont utilisées.
         //Arrêter immédiatement la chasse si le cerf est touché 3 fois.
